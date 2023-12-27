@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phú Tài</title>
+    <!-- reset css -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- swipper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Big+Shoulders+Stencil+Text:wght@700&family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- style -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container navbar">
+        <div class="leftSide">
+          <div class="logoBox">
+            <img src="./assets/img/logo_Phutai.png" alt="" class="logo" style="width: 100%;"/>
+          </div>
+        </div>
+        <div class="rightSide">
+          <div class="languageBox">
+            <span class="active">EN</span> | <span>VN</span>
+          </div>
+          <div class="searchBox">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M23.7656 22.7344C24.0469 23.0156 24.0469 23.5312 23.7656 23.8125C23.625 23.9531 23.4375 24 23.25 24C23.0156 24 22.8281 23.9531 22.6406 23.8125L16.0312 17.1562C14.2969 18.6562 12.0938 19.5 9.70312 19.5C4.35938 19.5 0 15.1406 0 9.75C0 4.40625 4.3125 0 9.70312 0C15.0469 0 19.4531 4.40625 19.4531 9.75C19.4531 12.1875 18.6094 14.3906 17.1094 16.125L23.7656 22.7344ZM9.75 18C14.2969 18 18 14.3438 18 9.75C18 5.20312 14.2969 1.5 9.75 1.5C5.15625 1.5 1.5 5.20312 1.5 9.75C1.5 14.2969 5.15625 18 9.75 18Z"
+                fill="#A0A0A0"
+              />
+            </svg>
+          </div>
+          <div class="buger">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="42"
+              height="33"
+              viewBox="0 0 42 33"
+              fill="none"
+            >
+              <path
+                d="M1.5 3C0.65625 3 0 2.25 0 1.5C0 0.75 0.65625 0 1.5 0H40.5C41.25 0 42 0.84375 42 1.59375C42 2.34375 41.25 3 40.5 3H1.5ZM40.5 15C41.25 15 42 15.75 42 16.5C42 17.3438 41.25 18 40.5 18H1.5C0.65625 18 0 17.3438 0 16.5C0 15.75 0.65625 15 1.5 15H40.5ZM40.5 30C41.25 30 42 30.8438 42 31.5938C42 32.3438 41.25 33 40.5 33H1.5C0.65625 33 0 32.25 0 31.5C0 30.75 0.65625 30 1.5 30H40.5Z"
+                fill="black"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </header>
+    <body>
+      <section class="hero">
+        <div class="title">Khám Phá Vẻ Đẹp Và Bền Vững:</div>
+        <div class="title v2">Nội Thất Đá Tự Nhiên Và Gỗ Cao Cấp</div>
+        <div class="desc">
+          Xây dựng không gian sống và giá trị thẩm mỹ vượt thời gian
+        </div>
+        <div class="button">
+          <div class="span">XEM THÊM</div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="26"
+            height="26"
+            viewBox="0 0 26 26"
+            fill="none"
+          >
+            <path
+              d="M15.5146 4.82581L23.9999 13.3111L15.5146 21.7964"
+              stroke="white"
+              stroke-width="2.4"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M0 12.8965H24"
+              stroke="white"
+              stroke-width="2.4"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+      </section>
+      <section class="linhVuc">
+        <div class="container">
+          <div class="contentBox">
+            <div class="titleBox">
+              <div class="leftSide">
+                <div class="title">
+                  LĨNH VỰC <span class="active">HOẠT ĐỘNG</span>
+                </div>
+              </div>
+              <div class="rightSide">
+                Với khát vọng lan tỏa giá trị thịnh vượng, chúng tôi nghiên cứu
+                và phát triển những sản phẩm từ đá tự nhiên và đồ gỗ nội thất
+                độc đáo, mang lại sự khác biệt trong không gian sống cho cộng
+                đồng mà chúng tôi phục vụ.
+              </div>
+            </div>
+          </div>
+          <div class="bodyBox">
+            <div class="contentBox">
+              <div class="bodyBox_title">
+                01 <br />
+                NGÀNH ĐÁ
+              </div>
+              <div class="bodyBox_container">
+                <div class="desc">
+                  Với mong muốn đem đến cho thị trường những sản phẩm theo tiêu
+                  chuẩn quốc tế với tính thẩm mỹ cao và độ bền cùng thời gian,
+                  Công ty Cổ phần Phú Tài (Phú Tài JSC) luôn dẫn đầu và tiên
+                  phong trong việc đưa ra các sản phấm làm bằng đá tự nhiên cao
+                  cấp, không chỉ mang lại sự sang trọng hoàn hảo cho bất kỳ
+                  không gian nào mà còn đứng vững trước thử thách của thời gian.
+                  Nâng tầm không gian của bạn bằng sản phẩm đá của chúng tôi -
+                  sự pha trộn hoàn hảo giữa vẻ đẹp và độ bền vượt thời gian.
+                </div>
+                <div class="button">Xem thêm</div>
+              </div>
+            </div>
+            <div class="blockSide">
+              <div class="block">
+                <div class="text-vertical">NGÀNH GỖ</div>
+                <div class="line"></div>
+                <div class="number">02</div>
+              </div>
+              <div class="block">
+                <div class="text-vertical">NGÀNH Ô TÔ</div>
+                <div class="line"></div>
+                <div class="number">03</div>
+              </div>
+              <div class="block">
+                <div class="text-vertical">NGÀNH BẤT ĐỘNG SẢN</div>
+                <div class="line"></div>
+                <div class="number">04</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="quanHe">
+        <div class="container">
+          <div class="contentBox">
+            <div class="titleBox">
+              <div class="leftSide">
+                <div class="title">
+                  QUAN HỆ <span class="active">CỔ ĐÔNG</span>
+                </div>
+              </div>
+              <div class="rightSide"></div>
+            </div>
+
+            <div class="gridBox">
+              <div class="taiChinhBox gird-item">
+                <div class="heading active">BÁO CÁO TÀI CHÍNH</div>
+                <div class="thumb">
+                  <img src="./assets/img/quanhe_taichinh.png" alt="" />
+                </div>
+              </div>
+              <div class="thueBox gird-item">
+                <div class="heading">BÁO CÁO TÀI CHÍNH</div>
+                <div class="thumb">
+                  <img src="./assets/img/quanhe_thue.png" alt="" />
+                </div>
+              </div>
+              <div class="thongTinBox gird-item">
+                <div class="heading">BÁO CÁO TÀI CHÍNH</div>
+                <div class="thumb">
+                  <img src="./assets/img/quanhe_thongtin.png" alt="" />
+                </div>
+              </div>
+              <div class="taiLieuBox gird-item">
+                <div class="heading">BÁO CÁO TÀI CHÍNH</div>
+                <div class="thumb">
+                  <img src="./assets/img/quanhe_tailieu.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="tinTuc">
+        <div class="container">
+          <div class="contentBox">
+            <div class="titleBox">
+              <div class="leftSide">
+                <div class="title">
+                  TIN TỨC VÀ <span class="active">SỰ KIỆN</span>
+                </div>
+              </div>
+              <div class="rightSide">
+                <div class="prevBtn">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="40"
+                    height="40"
+                    viewBox="0 0 40 40"
+                    fill="none"
+                  >
+                    <circle
+                      cx="20"
+                      cy="20"
+                      r="19"
+                      transform="matrix(-1 0 0 1 40 0)"
+                      stroke="#F16336"
+                      stroke-width="2"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M22.8572 13.939L16.7963 19.9999L22.8572 26.0608"
+                      stroke="#F16336"
+                      stroke-width="2.4"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <div class="nextBtn">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="40"
+                    height="40"
+                    viewBox="0 0 40 40"
+                    fill="none"
+                  >
+                    <circle
+                      cx="20"
+                      cy="20"
+                      r="19"
+                      transform="matrix(-1 0 0 1 40 0)"
+                      stroke="#F16336"
+                      stroke-width="2"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M17.1428 13.939L23.2037 19.9999L17.1428 26.0608"
+                      stroke="#F16336"
+                      stroke-width="2.4"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="slideItem">
+                  <div class="thumb">
+                    <img src="./assets/img/slide1.png" alt="" />
+                  </div>
+                  <div class="slide_content">
+                    <div class="slide_title">
+                      Phú Tài (PTB) nhận tín dụng xanh gần 200 tỷ từ Ngân Hàng
+                      Anh Quốc HSBC
+                    </div>
+                    <div class="slide_date">11-11-2023</div>
+                    <a href="#!" class="slider_button">
+                      <div class="text">Xem Thêm</div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="26"
+                        height="26"
+                        viewBox="0 0 26 26"
+                        fill="none"
+                      >
+                        <path
+                          d="M15.5146 4.82568L23.9999 13.311L15.5146 21.7962"
+                          stroke="white"
+                          stroke-width="2.4"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M0 12.8965H24"
+                          stroke="white"
+                          stroke-width="2.4"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slideItem">
+                  <div class="thumb">
+                    <img src="./assets/img/slide1.png" alt="" />
+                  </div>
+                  <div class="slide_content">
+                    <div class="slide_title">
+                      Phú Tài (PTB) nhận tín dụng xanh gần 200 tỷ từ Ngân Hàng
+                      Anh Quốc HSBC
+                    </div>
+                    <div class="slide_date">11-11-2023</div>
+                    <a href="#!" class="slider_button">
+                      <div class="text">Xem Thêm</div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="26"
+                        height="26"
+                        viewBox="0 0 26 26"
+                        fill="none"
+                      >
+                        <path
+                          d="M15.5146 4.82568L23.9999 13.311L15.5146 21.7962"
+                          stroke="white"
+                          stroke-width="2.4"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M0 12.8965H24"
+                          stroke="white"
+                          stroke-width="2.4"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slideItem">
+                  <div class="thumb">
+                    <img src="./assets/img/slide1.png" alt="" />
+                  </div>
+                  <div class="slide_content">
+                    <div class="slide_title">
+                      Phú Tài (PTB) nhận tín dụng xanh gần 200 tỷ từ Ngân Hàng
+                      Anh Quốc HSBC
+                    </div>
+                    <div class="slide_date">11-11-2023</div>
+                    <a href="#!" class="slider_button">
+                      <div class="text">Xem Thêm</div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="26"
+                        height="26"
+                        viewBox="0 0 26 26"
+                        fill="none"
+                      >
+                        <path
+                          d="M15.5146 4.82568L23.9999 13.311L15.5146 21.7962"
+                          stroke="white"
+                          stroke-width="2.4"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M0 12.8965H24"
+                          stroke="white"
+                          stroke-width="2.4"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slideItem">
+                  <div class="thumb">
+                    <img src="./assets/img/slide1.png" alt="" />
+                  </div>
+                  <div class="slide_content">
+                    <div class="slide_title">
+                      Phú Tài (PTB) nhận tín dụng xanh gần 200 tỷ từ Ngân Hàng
+                      Anh Quốc HSBC
+                    </div>
+                    <div class="slide_date">11-11-2023</div>
+                    <a href="#!" class="slider_button">
+                      <div class="text">Xem Thêm</div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="26"
+                        height="26"
+                        viewBox="0 0 26 26"
+                        fill="none"
+                      >
+                        <path
+                          d="M15.5146 4.82568L23.9999 13.311L15.5146 21.7962"
+                          stroke="white"
+                          stroke-width="2.4"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M0 12.8965H24"
+                          stroke="white"
+                          stroke-width="2.4"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </body>
+    <footer>
+      <section class="footer">
+        <div class="container">
+          <div class="contentBox">
+            <div class="titleBox">
+              <div class="leftSide">
+                <div class="title" style="color: #fff">
+                  CÔNG TY CỔ PHẦN PHÚ TÀI
+                </div>
+              </div>
+              <div class="rightSide"></div>
+            </div>
+            <div class="menu">
+                <ul class="menu-col">
+                  <li>
+                    <a href="#!">
+                      <img src="./assets/img/icon_location.svg" alt="" />
+                      <span
+                        >278 Nguyễn Thị Định - Phường Nguyễn Văn Cừ - TP. Quy Nhơn -
+                        Tỉnh Bình Định</span
+                      >
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!">
+                      <img src="./assets/img/icon_phone.svg" alt="" />
+                      <span>+(84) 256 3847668</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="tel:+99999">
+                      <img src="./assets/img/icon_printf.svg" alt="" />
+                      <span>+(84) 256 3847668</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="mailto:sale@phutai.com.vn">
+                      <img src="./assets/img/icon_mail.svg" alt="" />
+                      <span>sale@phutai.com.vn</span>
+                    </a>
+                  </li>
+                  
+                </ul>
+                <ul class="menu-col">
+                    <li>
+                      <a href="#!">
+                        <span class="heading"
+                          >GIỚI THIỆU</span
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#!">
+                        <span>Giới Thiệu Chung</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#!">
+                        
+                        <span>Đội Ngũ Nhân Sự</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#!">
+                        <span>Lĩnh Vực Kinh Doanh</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#!">
+                        <span>Thành Tựu Nổi Bật</span>
+                      </a>
+                    </li>
+                    
+                  </ul>
+                <ul class="menu-col">
+                    <li>
+                      <a href="#!">
+                        <span class="heading"
+                          >LINH VỰC HOẠT ĐỘNGU</span
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#!">
+                        <span>Ngành Đá</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#!">
+                        
+                        <span>Ngành gỗ</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#!">
+                        <span>Ngành ô tô</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#!">
+                        <span>Ngành bất động sản</span>
+                      </a>
+                    </li>
+                    
+                  </ul>
+                <ul class="menu-col">
+                    <li>
+                      <a href="#!">
+                        <span class="heading"
+                          >QUAN HỆ CỔ ĐÔNG</span
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#!">
+                        <span>Báo cáo Tài Chính</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#!">
+                        
+                        <span>Báo Cáo Thuế</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#!">
+                        <span>Công Bố Thông Tin</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#!">
+                        <span>Tài Liệu Khác</span>
+                      </a>
+                    </li>
+                    
+                  </ul>
+              </div>
+            
+          </div>
+          
+        </div>
+        
+      </section>
+      <div class="copyright">
+        © 2023 Phú Tài Design
+    </div>
+    </footer>
+    <!-- bootstrap 5 -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- my javascript -->
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
